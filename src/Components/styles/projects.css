@@ -1,0 +1,25 @@
+.container-things-we {
+  display: flex;
+}
+.container-text {
+}
+.container-titlee {
+  text-align: end;
+  padding: 0 50px;
+}
+.container-text-projects {
+  background: rgb(0, 0, 0);
+  padding: 4px 28px;
+  border-radius: 7px;
+  position: relative;
+  right: 45px;
+  text-align: end;
+  line-height: 34px;
+}
+.title-project {
+  margin: 0;
+  color: rgb(167, 185, 0);
+}
+.description-prajects {
+  margin: 10px 0;
+}
