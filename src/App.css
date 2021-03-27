@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+  background: #000825;
+  line-height: 1.3;
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  font-size: 19px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 35px 0;
+  letter-spacing: 0.4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.container {
   display: flex;
-  flex-direction: column;
+  margin: 0px auto;
+  max-width: 1600px;
+  min-height: 100vh;
+  padding: 100px 80px;
+}
+.container-text-about-us {
+  color: #d6d6d6;
+  max-width: 450px;
+  padding: 0 50px;
+}
+.container-title {
+  display: flex;
+  color: #ffff;
+  font-size: 15px;
+}
+.title-number {
+  color: #85ffd6;
+  margin-right: 4px;
+}
+.container-text {
+}
+.container-img {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 0 45px 85px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imagen-about-us {
+  width: 500px;
+  border-radius: 7px;
 }
