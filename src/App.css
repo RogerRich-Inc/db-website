@@ -6,7 +6,7 @@ body {
   height: 1000vh;
 }
 p {
-  margin: 35px 0;
+  margin: 25px 0;
   letter-spacing: 0.4px;
 }
 ul {
@@ -24,8 +24,13 @@ li {
   font-size: 17px;
 }
 /* about us */
+.section-midle {
+  max-width: 1550px;
+  margin: 0 auto;
+}
 .container {
   display: flex;
+  justify-content: center;
   margin: 0px auto;
   padding: 100px 80px;
 }
@@ -43,10 +48,26 @@ li {
   color: #85ffd6;
   margin-right: 4px;
 }
+
+.title-number-1 {
+  color: #85ffd6;
+  margin: 0;
+  position: relative;
+  top: -8px;
+  right: -59px;
+}
+
+.title-number-2 {
+  color: #85ffd6;
+  margin: 0;
+  position: relative;
+  top: 58px;
+}
+
 .container-img {
   display: flex;
   align-items: center;
-  padding: 0 0 45px 85px;
+  padding: 0 0 45px 45px;
 }
 .imagen-about-us {
   width: 500px;
@@ -54,7 +75,7 @@ li {
 }
 
 .container-projects {
-  /* display: grid; */
+  margin-bottom: 50px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
@@ -73,8 +94,9 @@ li {
   position: relative;
   top: 200px;
   width: 550px;
-  right: -80px;
+  right: -30px;
   height: 245px;
+  margin-bottom: 200px;
 }
 .title-grande {
   font-size: 150px;
@@ -96,7 +118,7 @@ li {
   font-style: italic;
   font-weight: 200;
 }
-.temporada {
+.text-projects {
   margin: 0;
   line-height: 25px;
 }
