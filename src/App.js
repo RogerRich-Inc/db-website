@@ -42,9 +42,8 @@ function App() {
         </div>
         <div className="container container-projects">
           <div className="container-title title-projects">
-            <h1 className="title-number-1 title-grande">0</h1>
-            <h1 className="title-number-2 title-grande">2.</h1>
-            <h1 className="title title-prueba">Some Thing We Have Built</h1>
+            <h1 className="title-number">02.</h1>
+            <h1 className="title">Some Thing We Have Built</h1>
           </div>
           {/* <div className="space"></div> */}
           <div className="container-description">

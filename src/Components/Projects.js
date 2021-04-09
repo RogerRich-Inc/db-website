@@ -14,7 +14,7 @@ function Projects() {
           <div className="container-text">
             <div className="container-titlee">
               <p className="title-project">Featured Project</p>
-              <h4 className="description-prajects">OctoProfile</h4>
+              <h4 className="description-projects">OctoProfile</h4>
             </div>
 
             <div className="container-text-projects">
@@ -30,9 +30,11 @@ function Projects() {
           <div className="container-text">
             <div className="container-titlee container-titlee-reverse">
               <p className="title-project">Featured Project</p>
-              <h4 className="description-prajects">OctoProfile</h4>
+              <h4 className="description-projects">OctoProfile</h4>
             </div>
-
+            <div className="container-img container-img-reverse">
+              <img className="imagen-about-us" src={gato} alt="" />
+            </div>
             <div className="container-text-projects container-text-projects-reverse">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
