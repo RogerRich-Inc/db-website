@@ -32,97 +32,64 @@ li {
   display: flex;
   justify-content: center;
   margin: 0px auto;
-  padding: 100px 80px;
+  padding: 100px 50px;
 }
 .container-text-about-us {
   color: #d6d6d6;
   max-width: 450px;
-  padding: 0 50px;
+  padding: 0 5%;
 }
 .container-title {
   display: flex;
   color: #ffff;
   font-size: 15px;
 }
+.container-text {
+  line-height: 26px;
+}
 .title-number {
   color: #85ffd6;
   margin-right: 4px;
 }
-
-.title-number-1 {
-  color: #85ffd6;
-  margin: 0;
-  position: relative;
-  top: -8px;
-  right: -59px;
-}
-
-.title-number-2 {
-  color: #85ffd6;
-  margin: 0;
-  position: relative;
-  top: 58px;
-}
-
 .container-img {
   display: flex;
   align-items: center;
-  padding: 0 0 45px 45px;
+  padding: 0 0 4% 1%;
 }
 .imagen-about-us {
   width: 500px;
   border-radius: 7px;
 }
+.li1 {
+  color: #bef009;
+}
+.li2 {
+  color: #09f03b;
+}
+.li3 {
+  color: #0522c7;
+}
+.li4 {
+  color: #07dd8b;
+}
+.li5 {
+  color: #00116e;
+}
+@media screen and (max-width: 1160px) {
+  .container {
+    padding: 100px 20px;
+  }
+  .container-text-about-us {
+    padding: 0 1%;
+  }
+  .container-text {
+    font-size: 17px;
+  }
+  .imagen-about-us {
+    width: 100%;
+  }
+}
 
-.container-projects {
-  color: #d6d6d6;
-  /* margin-bottom: 50px; */
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "container-title container-title"
-    "space container-description";
-}
-.title-projects {
-  grid-area: container-title;
-}
-.space {
-  grid-area: space;
-}
-.container-description {
-  grid-area: container-description;
-  position: relative;
-  top: 70px;
-  width: 550px;
-  right: -30px;
-  height: 245px;
-}
-.title-grande {
-  font-size: 150px;
-  width: 100px;
-  position: relative;
-}
-.title-prueba {
-  font-size: 63px;
-  width: 484px;
-}
-.secondary-title {
-  font-size: 30px;
-  margin-bottom: 0;
-}
-.third-title {
-  margin: 10px 0;
-  font-size: 23px;
-  letter-spacing: 1px;
-  font-style: italic;
-  font-weight: 200;
-}
-.text-projects {
-  font-size: 17px;
-  margin: 0;
-  line-height: 25px;
-}
 @media screen and (max-width: 768px) {
   .container {
     display: block;
@@ -139,15 +106,9 @@ li {
   .imagen-about-us {
     width: 450px;
   }
-  .container-projects {
-    padding-top: 0;
-  }
-  .secondary-title {
-    margin-top: 0;
-  }
-  .container-description {
-    text-align: center;
-    top: 40px;
-    height: 173px;
+}
+@media screen and (max-width: 400px) {
+  .container-text {
+    font-size: 15px;
   }
 }
