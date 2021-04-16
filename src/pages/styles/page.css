@@ -1,0 +1,114 @@
+body {
+  background: #000825;
+  line-height: 1.3;
+  font-family: "Calibre", "San Francisco", "SF Pro Text", sans-serif;
+  font-size: 19px;
+  height: 1000vh;
+}
+p {
+  margin: 25px 0;
+  letter-spacing: 0.4px;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+}
+li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+/* about us */
+.section-midle {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 100px 50px;
+}
+.container-text-about-us {
+  color: #d6d6d6;
+  max-width: 450px;
+  padding: 0 5%;
+}
+.container-title {
+  display: flex;
+  color: #ffff;
+  font-size: 15px;
+}
+.container-text {
+  line-height: 26px;
+}
+.title-number {
+  color: #85ffd6;
+  margin-right: 4px;
+}
+.container-img {
+  display: flex;
+  align-items: center;
+  padding: 0 0 4% 1%;
+}
+.imagen-about-us {
+  width: 500px;
+  border-radius: 7px;
+}
+.li1 {
+  color: #bef009;
+}
+.li2 {
+  color: #09f03b;
+}
+.li3 {
+  color: #0522c7;
+}
+.li4 {
+  color: #07dd8b;
+}
+.li5 {
+  color: #00116e;
+}
+@media screen and (max-width: 1160px) {
+  .container {
+    padding: 100px 20px;
+  }
+  .container-text-about-us {
+    padding: 0 1%;
+  }
+  .container-text {
+    font-size: 17px;
+  }
+  .imagen-about-us {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .container-text-about-us {
+    max-width: none;
+    padding: 0;
+    margin-bottom: 65px;
+  }
+  .container-img {
+    justify-content: center;
+    padding: 0;
+  }
+  .imagen-about-us {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-text {
+    font-size: 15px;
+  }
+}
