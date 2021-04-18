@@ -24,7 +24,7 @@ const Footer = () => {
                                 <FooterLink to="inicio">danisando.com</FooterLink>
                                 <FooterLink to="inicio">juanbui.com</FooterLink>
                                 <FooterLink to="inicio">divisionesjl.com</FooterLink>
-                                <FooterLink to="inicio">montacargasvalladolid</FooterLink>
+                                <FooterLink to="inicio">montacargasv</FooterLink>
                                 <FooterLink to="inicio">Terms of Service</FooterLink> 
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>db</SocialLogo>
-                        <WebsiteRights>db © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                        <WebsiteRights>db company © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="//www.instagram.com/db" target="_blank" aria-label="Instagram">
                                 <FaInstagram />

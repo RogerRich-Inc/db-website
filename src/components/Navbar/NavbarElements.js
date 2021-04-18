@@ -19,10 +19,13 @@ border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
  position: sticky;
  top: 0;
  z-index:10;
+ 
 
  @media screen and (max-width:960px){
      transition: 0.8s all ease;
  }
+ 
+ 
 `
 export const NavbarContainer = styled.div`
  display:flex;
@@ -32,6 +35,7 @@ export const NavbarContainer = styled.div`
  width: 100%;
  padding: 0 24px;
  max-width: 1100px;
+ 
 `
 export const NavLogo = styled(LinkS)`
  color:white;
@@ -43,6 +47,12 @@ export const NavLogo = styled(LinkS)`
  margin-left: 24px;
  font-weight:bold;
  text-decoration:none;
+
+ &:hover {
+    color:#00B0FF;
+    transition: 0.3s ease-out;
+}
+ 
  `
 
  export const MobileIcon = styled.div`
@@ -87,4 +97,8 @@ font-weight: bold;
  &.active{
      border-bottom: 3px solid #01bf71;
  }
+ &:hover {
+    color:#01bf71;
+    transition: 0.3s ease-out;
+}
 `;

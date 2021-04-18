@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
  background-color: #101522;`
 
 export const FooterWrap = styled.div`
- padding: 48px 24px;
+ padding: 48px 5px;
  display: flex;
  flex-direction:column;
  justify-content: center;
@@ -15,15 +15,17 @@ export const FooterWrap = styled.div`
 
 export const FooterLinksContainer = styled.div`
  display: flex;
- justify-content:center;
- 
  @media screen and (max-width:820px){
      padding-top:32px;
- }`
+ }
+ @media screen and (max-width:300px){
+    flex-direction:column;
+}
+ 
+`
 
 export const FooterLinksWrapper = styled.div`
  display:flex;
- 
  @media screen and (max-width: 820px){
      flex-direction:column;
  }`
@@ -38,7 +40,7 @@ export const FooterLinksWrapper = styled.div`
   box-sizing:border-box;
   color:#fff;
   
-  @media screen and (max-width: 420ox){
+  @media screen and (max-width: 420px){
       margin:0;
       padding: 10px;
       width:100%;
