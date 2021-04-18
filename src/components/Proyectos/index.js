@@ -12,7 +12,7 @@ const Proyects = () => {
                 <ProyectsCard>
                     <ProyectsIcon src={Icon1}/>
                     <ProyectsH2>React JS apps</ProyectsH2>
-                    <ProyectsP>Best of the best, here.</ProyectsP>
+                    <ProyectsP>Best of the best, here in db developmers. </ProyectsP>
                 </ProyectsCard>
                 <ProyectsCard>
                     <ProyectsIcon src={Icon2}/>
