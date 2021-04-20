@@ -1,0 +1,52 @@
+p {
+  margin: 20px 10px;
+}
+.container {
+}
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 40px;
+}
+.container-img {
+  max-width: 920px;
+  overflow: hidden;
+  width: auto;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: -5px;
+}
+.container-paragraph {
+  color: rgb(228, 226, 226);
+  padding: 0 5%;
+  line-height: 26px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 14px;
+}
+.img {
+  width: 100%;
+}
+.img-principal-project {
+}
+.container-paragraph {
+}
+/* reverse */
+
+.work-reverse {
+  padding-top: 190px;
+}
+.title-project {
+  text-align: end;
+  font-size: 28px;
+  color: #febc19;
+  position: relative;
+  bottom: 50px;
+}
+.title-project-reverse {
+  text-align: left;
+  color: #3aa125;
+}
