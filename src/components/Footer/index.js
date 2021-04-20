@@ -4,6 +4,8 @@ import { FaGithub, FaInstagram } from 'react-icons/fa'
 
 import{FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink, SocialIconLink, SocialIcons,SocialLogo,SocialMedia,SocialMediaWrap,WebsiteRights} from './FooterElements'
 
+import {animateScroll as scroll} from 'react-scroll'
+
 const Footer = () => {
     return (
         <FooterContainer>
@@ -49,7 +51,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>db</SocialLogo>
+                        <SocialLogo onClick={scroll.scrollToTop}>db</SocialLogo>
                         <WebsiteRights>db company © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="//www.instagram.com/db" target="_blank" aria-label="Instagram">

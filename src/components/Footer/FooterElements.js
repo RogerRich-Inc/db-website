@@ -20,9 +20,7 @@ export const FooterLinksContainer = styled.div`
  }
  @media screen and (max-width:300px){
     flex-direction:column;
-}
- 
-`
+}`
 
 export const FooterLinksWrapper = styled.div`
  display:flex;

@@ -14,7 +14,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>db company</HeroH1>
@@ -22,7 +22,9 @@ function HeroSection() {
                 <HeroBtnWrapper>
                     <Button to='contacto' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
-                    dark="true">
+                    dark="true"
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    >
                         Contact {hover ? <ArrowForward /> :<ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
