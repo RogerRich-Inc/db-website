@@ -29,6 +29,7 @@ p {
 }
 .img {
   width: 100%;
+  border-radius: 7px;
 }
 .img-principal-project {
 }
@@ -42,7 +43,7 @@ p {
 .title-project {
   text-align: end;
   font-size: 28px;
-  color: #febc19;
+  color: #f8b713;
   position: relative;
   bottom: 50px;
 }

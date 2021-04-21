@@ -1,4 +1,9 @@
-h1 {
+span {
+  font-size: 23px;
+  color: #e8e6e3;
+  text-transform: uppercase;
+}
+.h1-work {
   white-space: nowrap;
   font-size: 8.1vw;
   color: #ffffff;
@@ -7,16 +12,13 @@ h1 {
   letter-spacing: 0.01em;
   font-weight: normal;
 }
-span {
-  font-size: 23px;
-  color: #e8e6e3;
-  text-transform: uppercase;
-}
 .container {
-  width: 100%;
   background: #010106;
+  font-family: "Noto Sans", sans-serif;
 }
 .container-projects {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 .work-title {
 }

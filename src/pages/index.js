@@ -8,10 +8,12 @@ import {
   homeObjTwo,
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
+
 // import Proyects from "../components/Proyectos";
 import Sidebar from "../components/Sidebar";
-
-import Projects from "../components/project/Project";
+//jb components
+import Projects from "../components/Project/Project";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 const Inicio = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +27,7 @@ const Inicio = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <AboutUs />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Projects />
