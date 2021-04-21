@@ -1,0 +1,92 @@
+.container {
+  background: #010106;
+  font-family: "Noto Sans", sans-serif;
+  /* background: lemonchiffon; */
+}
+.container-aboutus {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.paragraph-au::first-letter {
+  font-size: 38px;
+  color: #d5d83e;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.container-img {
+}
+.container-img-AU {
+}
+.img {
+}
+.img-AU {
+  border-radius: 0;
+}
+.container-text {
+  padding-top: 140px;
+}
+.container-text-AU {
+}
+.container-titles {
+  margin: 0px 15px;
+}
+.secondary-title {
+  line-height: 20px;
+  color: #01bf71;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  -webkit-letter-spacing: 1.4px;
+  -moz-letter-spacing: 1.4px;
+  -ms-letter-spacing: 1.4px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.principal-title {
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #f7f8fa;
+}
+.container-paragraph-us {
+  text-align: initial;
+  margin: 45px 35px 80px 200px;
+  font-size: 13px;
+  line-height: 30px;
+  color: #c7c7c7;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0px;
+  margin: 45px 0px 0px 10px;
+  overflow: hidden;
+  list-style: none;
+  font-size: 14px;
+  text-align: center;
+  color: #e8e6e3;
+}
+.skills-list :hover {
+  font-size: 16px;
+}
+.icon-1 {
+  color: #efd81d;
+}
+.icon-2 {
+  color: rgb(94 211 243);
+}
+.icon-3 {
+  color: #633194;
+}
+.icon-4 {
+  color: #dd4b25;
+}
+.icon-5 {
+  color: #006db4;
+}
+.icon-6 {
+  color: #8a8a8a;
+}
