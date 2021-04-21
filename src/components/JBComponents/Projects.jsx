@@ -4,11 +4,15 @@ import React from "react";
 import "../styles/Projects.css";
 //images
 import principal_project from "../../images/project1.jpg";
+//animations aos Library
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
+  AOS.init();
   return (
     <>
-      <div className="container work">
+      <div className="container work" data-aos="fade-up">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <a href="#">
           <div className="container-img">
