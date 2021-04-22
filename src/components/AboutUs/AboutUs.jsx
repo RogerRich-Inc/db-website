@@ -12,7 +12,7 @@ import { SiJavascript, SiStylus } from "react-icons/si";
 const AboutUs = () => {
   return (
     <>
-      <div className="container ">
+      <div id="aboutus" className="container ">
         <div className="container-aboutus">
           <div className="container-img container-img-AU">
             <img className="img img-AU" src={aboutUs} alt="" />

@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
       </div>
       {/*Project2 reverse*/}
-      <div className="container work work-reverse">
+      <div data-aos="fade-down-right" className="container work work-reverse">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <div className="container-paragraph">
           <h1 className="title-project  title-project-reverse">
@@ -67,7 +67,7 @@ const Projects = () => {
           </div>
         </a>
       </div>
-      <div className="container work">
+      <div className="container work" data-aos="flip-left">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <a href="#">
           <div className="container-img">

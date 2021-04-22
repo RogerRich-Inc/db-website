@@ -41,3 +41,9 @@ span {
   text-align: end;
   margin: 120px 50px;
 }
+@media screen and (max-width: 768px) {
+  .outline {
+    line-height: 56px;
+    font-size: 63px;
+  }
+}

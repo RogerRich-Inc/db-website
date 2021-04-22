@@ -51,3 +51,20 @@ p {
   text-align: left;
   color: #3aa125;
 }
+@media screen and (max-width: 768px) {
+  .work {
+    display: block;
+    padding: 40px 40px;
+  }
+  .work-reverse {
+    padding-top: 190px;
+    display: flex;
+    flex-flow: column-reverse;
+    padding: 40px 40px;
+  }
+  .title-project {
+    text-align: center;
+    position: initial;
+    margin-top: 30px;
+  }
+}

@@ -8,7 +8,7 @@ import Projects from "../JBComponents/Projects";
 const Project = () => {
   return (
     <>
-      <div className="container ">
+      <div id="proyectos" className="container ">
         <div className="work-title">
           <h1 className="h1-work">
             <span className="row">

@@ -28,8 +28,6 @@ const Inicio = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <AboutUs />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
       <Projects />
       <InfoSection {...homeObjThree} />
       <Footer />
