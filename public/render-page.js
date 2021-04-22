@@ -14046,24 +14046,24 @@ function v(){return(v=Object.assign||function(e){for(var t=1;t<arguments.length;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!***********************************************************************************************!*\
-  !*** external "C:\\github\\final\\db-gatsby\\db-company\\node_modules\\react-dom\\server.js" ***!
-  \***********************************************************************************************/
+/*!****************************************************************************!*\
+  !*** external "C:\\github\\final\\db\\node_modules\\react-dom\\server.js" ***!
+  \****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\github\\final\\db-gatsby\\db-company\\node_modules\\react-dom\\server.js");;
+module.exports = require("C:\\github\\final\\db\\node_modules\\react-dom\\server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!******************************************************************************************!*\
-  !*** external "C:\\github\\final\\db-gatsby\\db-company\\node_modules\\react\\index.js" ***!
-  \******************************************************************************************/
+/*!***********************************************************************!*\
+  !*** external "C:\\github\\final\\db\\node_modules\\react\\index.js" ***!
+  \***********************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\github\\final\\db-gatsby\\db-company\\node_modules\\react\\index.js");;
+module.exports = require("C:\\github\\final\\db\\node_modules\\react\\index.js");;
 
 /***/ }),
 

@@ -1,26 +1,26 @@
 var plugins = [{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     },{
       name: 'gatsby-plugin-image',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-google-analytics',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"G-HQ3TLQK6B4","head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
     },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-sitemap',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     },{
       name: 'gatsby-plugin-manifest',
-      plugin: require('C:/github/final/db-gatsby/db-company/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/github/final/db/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"53aa06cf17e4239d0dba6ffd09854e02"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
