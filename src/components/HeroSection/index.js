@@ -20,7 +20,7 @@ function HeroSection() {
             <VideoFondo src="https://player.vimeo.com/video/524797150?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&playsinline=true&quality=auto"
                 frameborder="0"
                 allowfullscreen
-                allow="autoplay; fullscreen"
+                allow="autoplay"
                 title="vimeo video astronaut"/>
             </HeroBg>
             <HeroContent>
