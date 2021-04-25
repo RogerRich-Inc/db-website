@@ -17,10 +17,13 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-            <VideoFondo src="https://player.vimeo.com/video/342658137?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
+            <VideoFondo src="https://www.youtube.com/embed/mFschwzjxC4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=mFschwzjxC4&mute=1"
                 frameborder="0"
                 allowfullscreen
-                title="vimeo video astronaut"/>
+                webkitallowfullscreen="true"
+                mozallowfullscreen="true"
+                allow="autoplay"
+                title="youtube video player astronaut"/>/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>db company</HeroH1>
