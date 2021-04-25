@@ -17,7 +17,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-            <VideoFondo src="https://player.vimeo.com/video/524797150?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
+            <VideoFondo src="https://player.vimeo.com/video/342658137?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
                 frameborder="0"
                 allowfullscreen
                 title="vimeo video astronaut"/>
