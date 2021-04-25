@@ -1,9 +1,12 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video4.mp4'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1,HeroP,HeroBtnWrapper,ArrowForward,ArrowRight} from './HeroElements'
+import { HeroContainer, HeroBg, HeroContent, HeroH1,HeroP,HeroBtnWrapper,ArrowForward,ArrowRight, VideoFondo} from './HeroElements'
 import {Button} from '../ButtonElement'
-
-
+//524748179
+//524797150
+//524796593
+//vertical
+//524797791
+//524797697
 function HeroSection() {
     const [hover, setHover] = useState(false)
 
@@ -14,7 +17,10 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
+            <VideoFondo src="//player.vimeo.com/video/524797150?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
+                frameborder="0"
+                allowfullscreen 
+                title="vimeo video astronaut"/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>db company</HeroH1>
