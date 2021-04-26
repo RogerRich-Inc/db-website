@@ -17,7 +17,7 @@ function HeroSection() {
     return (
         <HeroContainer>
             <HeroBg>
-            <VideoFondo src="//player.vimeo.com/video/541422801?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
+            <VideoFondo src="//player.vimeo.com/video/541425038?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=true&dnt=true&background=1"
                 frameborder="0"
                 allowfullscreen
                 webkitallowfullscreen="true"
