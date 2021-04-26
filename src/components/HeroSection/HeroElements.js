@@ -58,9 +58,9 @@ export const HeroContainer =styled.div`
     top: -100%;
     height: 300%;
 }
-@media (max-width: 480px){
+@media (max-width: 500px){
   left: -140%;
-  width: 380%;
+  width: 400%;
 }
    `
    export const VideoFondo =styled.iframe`
