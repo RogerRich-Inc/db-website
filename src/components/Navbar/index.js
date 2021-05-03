@@ -32,7 +32,7 @@ const Navbar = ({ toggle }) => {
                 offset={-80}
                 activeClass="active"
               >
-                About
+                Inicio
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
                 offset={-80}
                 activeClass="active"
               >
-                Portafolio
+                Experiencia
               </NavLinks>
             </NavItem>
             <NavItem>
