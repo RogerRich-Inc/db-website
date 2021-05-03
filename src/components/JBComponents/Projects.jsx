@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 //styles
 import "../styles/Projects.css";
 //images
-import principal_project from "../../images/project1.jpg";
+import principal_project from "../../images/danisando.jpg";
+import secondary_project from "../../images/montacargas.jpg";
 //animations aos Library
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -78,7 +79,7 @@ const Projects = () => {
           <div className="container-img container-img-reverse ">
             <img
               className="img img-principal-project"
-              src={principal_project}
+              src={secondary_project}
               alt="project img"
             />
           </div>
