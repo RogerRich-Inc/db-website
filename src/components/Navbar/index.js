@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="aboutus"
+                onClick={scroll.scrollToTop}
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="portafolio"
+                to="aboutus"
                 smooth={true}
                 duration={500}
                 spy={true}
