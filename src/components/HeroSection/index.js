@@ -24,7 +24,7 @@ function HeroSection() {
             </HeroBg>
             <HeroContent>
                 <HeroH1>db company</HeroH1>
-                <HeroP>We create awesome React JS apps</HeroP>
+                <HeroP>Creamos asombrosas páginas web</HeroP>
                 <HeroBtnWrapper>
                     <Button to='contacto' onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
