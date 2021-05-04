@@ -46,9 +46,9 @@ const Projects = () => {
         <div className="container-paragraph">
           <h1 className="title-project">JUAN BU website</h1>
           <p>
-Maneja distintas tecnologías Javascript, React JS, Gatsby JS, webpack, HTML y CSS.
+Desarrollada en Javascript, React JS, Gatsby JS, webpack, HTML y CSS.
+     Estilo neón.
 Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimización de imágenes con Gatsby, optimización de posicionamiento en google, accesibilidad; entre otras.
-
           </p>
           <p>
 Fue desarrollada el 1 de mayo del 2021.
@@ -66,12 +66,16 @@ Si el diseño o los lenguajes te interesan:
             Montacargas Valladolid
           </h1>
           <p>
-Maneja distintas tecnologías Javascript, React JS, HTML y CSS.
-Llega a puestos en rendimiento de 87/100 en google lighthouse, incluye optimización de imágenes con Gatsby, 
-optimización de posicionamiento en google, accesibilidad; entre otras.
-
+Empresa Alquiler Montacargas Valladolid. Tienen más de 60 años alquilando montacargas.
+Página para cotizar precios de sus servicios, contratar servicios y atraer nuevos clientes.
+     Diseño moderno, con formulario estilo pop-up.
+     Modulos de whatsapp, chat y llamada.
           </p>
           <p>
+Desarrollada en Javascript, React JS, HTML y CSS.
+Llega a puestos en rendimiento de 87/100 en google lighthouse, incluye optimización de imágenes con Gatsby, 
+optimización de posicionamiento en google, accesibilidad; entre otras.
+     
 Fue desarrollada el 14 de mayo del 2020.
 Si el diseño o los lenguajes te interesan:
 
@@ -102,7 +106,7 @@ Si el diseño o los lenguajes te interesan:
         <div className="container-paragraph">
           <h1 className="title-project">danisando website</h1>
           <p>
-Maneja distintas tecnologías Javascript, React JS, HTML y CSS.
+Desarrollada en tecnologías Javascript, React JS, HTML y CSS.
 Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimización de imágenes con Gatsby, optimización de posicionamiento en google, accesibilidad; entre otras.
           </p>
           <p>
