@@ -36,6 +36,7 @@ const Projects = () => {
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <a href="#">
           <div className="container-img">
+     <a href="//www.juanbuui.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={juanbui}
@@ -84,6 +85,7 @@ Si el diseño o los lenguajes te interesan:
         </div>
         <a href="#">
           <div className="container-img container-img-reverse ">
+     <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={secondary_project}
@@ -96,6 +98,7 @@ Si el diseño o los lenguajes te interesan:
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <a href="#">
           <div className="container-img">
+     <a href="//www.danisando.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={principal_project}
