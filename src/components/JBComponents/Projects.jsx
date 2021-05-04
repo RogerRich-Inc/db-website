@@ -5,6 +5,8 @@ import "../styles/Projects.css";
 //images
 import principal_project from "../../images/danisando.jpg";
 import secondary_project from "../../images/montacargas.jpg";
+import juanbui from "../../images/juanbui.jpg";
+
 //animations aos Library
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -36,7 +38,7 @@ const Projects = () => {
           <div className="container-img">
             <img
               className="img img-principal-project"
-              src={principal_project}
+              src={juanbui}
               alt="project img"
             />
           </div>
