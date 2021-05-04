@@ -49,7 +49,7 @@ Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimiza
 
           </p>
           <p>
-Está disponible desde 1 de mayo del 2021.
+Fue desarrollada el 1 de mayo del 2021.
 Si el diseño o los lenguajes te interesan:
 
           </p>
@@ -70,7 +70,7 @@ optimización de posicionamiento en google, accesibilidad; entre otras.
 
           </p>
           <p>
-Está disponible desde 14 de mayo del 2020.
+Fue desarrollada el 14 de mayo del 2020.
 Si el diseño o los lenguajes te interesan:
 
           </p>
@@ -104,7 +104,7 @@ Maneja distintas tecnologías Javascript, React JS, HTML y CSS.
 Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimización de imágenes con Gatsby, optimización de posicionamiento en google, accesibilidad; entre otras.
           </p>
           <p>
-Está disponible desde 1 de mayo del 2021.
+Fue desarrollada el 1 de mayo del 2021.
 Si el diseño o los lenguajes te interesan:
 
           </p>
