@@ -70,7 +70,7 @@ optimización de posicionamiento en google, accesibilidad; entre otras.
 
           </p>
           <p>
-Está disponible desde 1 de mayo del 2021.
+Está disponible desde 14 de mayo del 2020.
 Si el diseño o los lenguajes te interesan:
 
           </p>
