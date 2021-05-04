@@ -23,7 +23,7 @@ const Project = () => {
         </div>
         <div className="container-projects">
           <p className="container-secondary-title-projects">
-            <span className="">featured projects</span>
+            <span className="">Algúnos de nuestros clientes</span>
           </p>
           <Projects />
         </div>
