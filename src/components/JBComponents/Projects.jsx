@@ -42,18 +42,18 @@ const Projects = () => {
           </div>
         </a>
         <div className="container-paragraph">
-          <h1 className="title-project">SPACE X </h1>
+          <h1 className="title-project">JUAN BU website</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            exercitationem nobis veniam praesentium distinctio aliquam al
-            reiciendis minima dolore! minima dolore!
+Maneja distintas tecnologías Javascript, React JS, Gatsby JS, webpack, HTML y CSS.
+Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimización de imágenes con Gatsby, optimización de posicionamiento en google, accesibilidad; entre otras.
+
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Su
-            accusantium a corrupti quaerat quia ipsum necessitatib iusto
-            possimus quam! sto possimus quam!
+Está disponible desde 1 de mayo del 2021.
+Si el diseño o los lenguajes te interesan:
+
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur uia ipsum necessitatib.</p>
+          <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
       </div>
       {/*Project2 reverse*/}
@@ -61,19 +61,20 @@ const Projects = () => {
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <div className="container-paragraph">
           <h1 className="title-project  title-project-reverse">
-            MERCEDES BENZ
+            Montacargas Valladolid
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            exercitationem nobis veniam praesentium distinctio aliquam al
-            reiciendis minima dolore! minima dolore!
+Maneja distintas tecnologías Javascript, React JS, HTML y CSS.
+Llega a puestos en rendimiento de 87/100 en google lighthouse, incluye optimización de imágenes con Gatsby, 
+optimización de posicionamiento en google, accesibilidad; entre otras.
+
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Su
-            accusantium a corrupti quaerat quia ipsum necessitatib iusto
-            possimus quam! sto possimus quam!
+Está disponible desde 1 de mayo del 2021.
+Si el diseño o los lenguajes te interesan:
+
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur uia ipsum necessitatib.</p>
+          <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
         <a href="#">
           <div className="container-img container-img-reverse ">
@@ -97,18 +98,17 @@ const Projects = () => {
           </div>
         </a>
         <div className="container-paragraph">
-          <h1 className="title-project">LENOVO TOUCH MY PATH </h1>
+          <h1 className="title-project">danisando website</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            exercitationem nobis veniam praesentium distinctio aliquam al
-            reiciendis minima dolore! minima dolore!
+Maneja distintas tecnologías Javascript, React JS, HTML y CSS.
+Llega a puestos en rendimiento de 100/100 en google lighthouse, incluye optimización de imágenes con Gatsby, optimización de posicionamiento en google, accesibilidad; entre otras.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Su
-            accusantium a corrupti quaerat quia ipsum necessitatib iusto
-            possimus quam! sto possimus quam!
+Está disponible desde 1 de mayo del 2021.
+Si el diseño o los lenguajes te interesan:
+
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur uia ipsum necessitatib.</p>
+          <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
       </div>
     </>
