@@ -80,7 +80,7 @@ Si el diseño o los lenguajes te interesan:
           </p>
           <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
-        <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+        <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="montacargas valladolid website" rel="noopener noreferrer">
           <div className="container-img container-img-reverse ">
             <img
               className="img img-principal-project"
@@ -92,7 +92,7 @@ Si el diseño o los lenguajes te interesan:
       </div>
       <div className="container work" data-aos="flip-left">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-        <a href="//www.danisando.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
+        <a href="//www.danisando.com" target="_blank" aria-label="dani sando website" rel="noopener noreferrer" />
           <div className="container-img">
             <img
               className="img img-principal-project"
