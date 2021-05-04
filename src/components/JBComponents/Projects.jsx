@@ -34,9 +34,8 @@ const Projects = () => {
     <>
       <div className="container work" data-aos="fade-up">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-        <a href="#">
+        <a href="//www.juanbuui.com" target="_blank" aria-label="Juan Bui website" rel="noopener noreferrer" >
           <div className="container-img">
-     <a href="//www.juanbuui.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={juanbui}
@@ -63,9 +62,7 @@ Si el diseño o los lenguajes te interesan:
       <div data-aos="fade-down-right" className="container work work-reverse">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
         <div className="container-paragraph">
-          <h1 className="title-project  title-project-reverse">
-            Montacargas Valladolid
-          </h1>
+          <h1 className="title-project  title-project-reverse">Montacargas Valladolid</h1>
           <p>
 Empresa Alquiler Montacargas Valladolid. Tienen más de 60 años alquilando montacargas.
 Página para cotizar precios de sus servicios, contratar servicios y atraer nuevos clientes.
@@ -83,9 +80,8 @@ Si el diseño o los lenguajes te interesan:
           </p>
           <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
-        <a href="#">
+        <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
           <div className="container-img container-img-reverse ">
-     <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={secondary_project}
@@ -96,9 +92,8 @@ Si el diseño o los lenguajes te interesan:
       </div>
       <div className="container work" data-aos="flip-left">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-        <a href="#">
+        <a href="//www.danisando.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
           <div className="container-img">
-     <a href="//www.danisando.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
             <img
               className="img img-principal-project"
               src={principal_project}
