@@ -34,7 +34,7 @@ const Projects = () => {
     <>
       <div className="container work" data-aos="fade-up">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-        <a href="//www.juanbuui.com" target="_blank" aria-label="Juan Bui website" rel="noopener noreferrer" >
+        <a href="//www.juanbuui.com" target="_blank" aria-label="Juan Bui website" rel="noopener noreferrer">
           <div className="container-img">
             <img
               className="img img-principal-project"
@@ -80,7 +80,7 @@ Si el diseño o los lenguajes te interesan:
           </p>
           <p>Contáctanos para mostarte cómo podemos ayudarte a alcanzar tus objetivos.</p>
         </div>
-        <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer" />
+        <a href="//www.montacargasvalladolid.com" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
           <div className="container-img container-img-reverse ">
             <img
               className="img img-principal-project"
