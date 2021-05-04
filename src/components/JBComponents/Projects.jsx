@@ -92,7 +92,7 @@ Si el diseño o los lenguajes te interesan:
       </div>
       <div className="container work" data-aos="flip-left">
         {/*CAMBIAR POR UN LINK DE REACT ROUTER */}
-        <a href="//www.danisando.com" target="_blank" aria-label="dani sando website" rel="noopener noreferrer" />
+        <a href="//www.danisando.com" target="_blank" aria-label="dani sando website" rel="noopener noreferrer">
           <div className="container-img">
             <img
               className="img img-principal-project"
