@@ -22,9 +22,6 @@ const AboutUs = () => {
               <span className="row">
                 <span className="secondary-title">SOBRE NOSOTROS</span>
                 <span className="principal-title">
-//                   Nuestra misíon es crear las mejores webs para su negocio.
-//                   Nuestar misíon es hacer la mejore web para su negocio.
-//                   Creamos webs para su negocio.
                   Creamos tu pagina web profesional.
                 </span>
               </span>
