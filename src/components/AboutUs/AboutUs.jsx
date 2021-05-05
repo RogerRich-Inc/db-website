@@ -20,9 +20,12 @@ const AboutUs = () => {
           <div className="container-text container-text-AU ">
             <div className="container-titles">
               <span className="row">
-                <span className="secondary-title">Nuestra experiencia</span>
+                <span className="secondary-title">SOBRE NOSOTROS</span>
                 <span className="principal-title">
-                  Nuestra experiencia podría resultar de interés para un negocio en crecimiento como el suyo.
+//                   Nuestra misíon es crear las mejores webs para su negocio.
+//                   Nuestar misíon es hacer la mejore web para su negocio.
+//                   Creamos webs para su negocio.
+                  Creamos tu pagina web profesional.
                 </span>
               </span>
             </div>
