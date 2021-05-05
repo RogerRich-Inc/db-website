@@ -10,7 +10,7 @@ export const HeroContainer =styled.div`
  background-position: 50%;
  background-repeat: no-repeat;
 
- width:98vw;
+ width:99vw;
  height:100vh;
  top:0;
  right:0;
