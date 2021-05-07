@@ -16,7 +16,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,headLine,darkTex
                             <Heading lightText={lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap>
-                                <Button to="home"
+                                <Button href={`mailto:'daniel.sando@hotmail.com'`}
                                 smooth={true}
                                 duration={500}
                                 spy={true}

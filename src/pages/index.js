@@ -1,38 +1,28 @@
-import React, { useState } from "react";
+import * as React from "react";
+import Layout from "../components/layout";
+
 import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection";
+import Hero from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
   homeObjOne,
   homeObjThree,
   homeObjTwo,
 } from "../components/InfoSection/Data";
-import Navbar from "../components/Navbar";
 
-// import Proyects from "../components/Proyectos";
-import Sidebar from "../components/Sidebar";
-//jb components
 import Projects from "../components/Project/Project";
+import NavbarFinal from "../components/Navbar/NavbaOrSidebar";
 import AboutUs from "../components/AboutUs/AboutUs";
 
-const Inicio = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const IndexPage = () => (
+  <Layout>
+    <NavbarFinal />
+    <Hero />
+    <AboutUs />
+    <Projects />
+    <InfoSection {...homeObjThree} />
+    <Footer />
+  </Layout>
+);
 
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-      <HeroSection />
-      <AboutUs />
-      <Projects />
-      <InfoSection {...homeObjThree} />
-      <Footer />
-    </>
-  );
-};
-
-export default Inicio;
+export default IndexPage;
