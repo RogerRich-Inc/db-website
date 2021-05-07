@@ -14,12 +14,6 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     //"gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        icon: "src/images/icon.png",
-      },
-    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -30,5 +24,19 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: `dbCompany`,
+        short_name: `db`,
+        start_url: `/`,
+        display: `standalone`,
+        lang: `es`,
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        display: `standalone`,
+        crossOrigin: `use-credentials`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 };
