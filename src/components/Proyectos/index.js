@@ -7,22 +7,22 @@ import {ProyectsContainer, ProyectsH1,ProyectsH2,ProyectsWrapper,ProyectsCard,Pr
 const Proyects = () => {
     return (
         <ProyectsContainer id="proyectos">
-            <ProyectsH1>Our Proyects</ProyectsH1>
+            <ProyectsH1>Nuestros Proyectos</ProyectsH1>
             <ProyectsWrapper>
                 <ProyectsCard>
-                    <ProyectsIcon src={Icon1} alt='React JS flat design'/>
-                    <ProyectsH2>React JS apps</ProyectsH2>
-                    <ProyectsP>Best of the best, here in db developmers. </ProyectsP>
+                    <ProyectsIcon src={Icon3} alt='React JS flat design'/>
+                    <ProyectsH2>EZ learn APP</ProyectsH2>
+                    <ProyectsP>Educación de calidad en Vaupés mediante app. </ProyectsP>
                 </ProyectsCard>
                 <ProyectsCard>
                     <ProyectsIcon src={Icon2} alt='hacker walking and a gigant window of code behind (flat design)'/>
-                    <ProyectsH2>JuanBuitrago.com</ProyectsH2>
-                    <ProyectsP>React JS, Gatsby JS and Google Cloud.</ProyectsP>
+                    <ProyectsH2>Learn Bot IA</ProyectsH2>
+                    <ProyectsP>Inteligencia Artificial para la traducción de lenguas nativas.</ProyectsP>
                 </ProyectsCard>
                 <ProyectsCard>
-                    <ProyectsIcon src={Icon3}/>
-                    <ProyectsH2>DaniSandoval.com</ProyectsH2>
-                    <ProyectsP>React JS, Gatsby JS and Google Cloud.</ProyectsP>
+                    <ProyectsIcon src={Icon1}/>
+                    <ProyectsH2>EZ learn robot</ProyectsH2>
+                    <ProyectsP>Robot profesor con todos los contenidos descargados para zonas muy remotas.</ProyectsP>
                 </ProyectsCard>
             </ProyectsWrapper>
         </ProyectsContainer>

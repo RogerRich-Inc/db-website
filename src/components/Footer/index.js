@@ -23,11 +23,11 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Proyects</FooterLinkTitle>
-                                <FooterLink to="inicio">danisando.com</FooterLink>
-                                <FooterLink to="inicio">juanbui.com</FooterLink>
-                                <FooterLink to="inicio">divisionesjl.com</FooterLink>
-                                <FooterLink to="inicio">montacargasv</FooterLink>
-                                <FooterLink to="inicio">Terms of Service</FooterLink> 
+                                <FooterLink to="inicio">EZ learn APP</FooterLink>
+                                <FooterLink to="inicio">Learn Bot IA</FooterLink>
+                                <FooterLink to="inicio">EZ learn robot</FooterLink>
+                                {/* <FooterLink to="inicio">montacargasv</FooterLink>
+                                <FooterLink to="inicio">Terms of Service</FooterLink>  */}
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
