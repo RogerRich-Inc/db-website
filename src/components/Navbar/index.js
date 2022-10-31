@@ -10,7 +10,7 @@ const Navbar = ( {toggle} ) => {
         <>
         <Nav>
             <NavbarContainer>
-                <NavLogo onClick={scroll.scrollToTop}>db</NavLogo>
+                <NavLogo onClick={scroll.scrollToTop}>EZ</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
